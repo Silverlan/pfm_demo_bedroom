@@ -1,0 +1,952 @@
+$string assetType "PMAP"
+"assetData"
+{
+	$array materials [string;0][]
+	$array entities [element;36][
+		{
+			$string className "entity"
+			"flags"
+			{
+				$bool clientsideOnly 1
+			}
+			$stransform pose [[0,0,50][1,0,0,0][1,1,1]]
+			"keyValues"
+			{
+				$string uuid "89fa1225-3560-4bbb-b6b6-1750cc5f14ec"
+			}
+			$array outputs [element;0][]
+			"components"
+			{
+				"pfm_sky"
+				{
+					$string flags "ClientsideOnly"
+					"properties"
+					{
+						$bool transparent 0
+						$string skyTexture "skies/dusk379.hdr"
+						$float strength 0.3
+					}
+				}
+			}
+		},
+		{
+			$string className "entity"
+			"flags"
+			{
+				$bool clientsideOnly 1
+			}
+			$stransform pose [[0,0,50][1,0,0,0][1,1,1]]
+			"keyValues"
+			{
+				$string uuid "a1e84ffe-d675-4760-91d8-f5d9442cef71"
+			}
+			$array outputs [element;0][]
+			"components"
+			{
+				"reflection_probe"
+				{
+					$string flags "ClientsideOnly"
+					"properties"
+					{
+						$float iblStrength 1.4
+						$string iblMaterial "pbr/ibl/venice_sunset"
+					}
+				}
+			}
+		},
+		{
+			$string className "entity"
+			"flags"
+			{
+				$bool clientsideOnly 1
+			}
+			$stransform pose [[0,0,50][1,0,0,0][1,1,1]]
+			"keyValues"
+			{
+				$string uuid "3da78fbe-e75d-45b8-811a-2ea94d87b086"
+			}
+			$array outputs [element;0][]
+			"components"
+			{
+				"light_map_data_cache"
+				{
+					$string flags "ClientsideOnly"
+					"properties"
+					{
+						$string lightmapDataCache "data/projects/4793a3d3-4201-4f7f-8afb-3b8cafa272d9/lightmap_data_cache"
+					}
+				}
+				"light_map"
+				{
+					$string flags "ClientsideOnly"
+					"properties"
+					{
+						$string lightmapMaterial "projects/4793a3d3-4201-4f7f-8afb-3b8cafa272d9/lightmap"
+						$float exposure 1
+					}
+				}
+				"pfm_cuboid_bounds"
+				{
+					$string flags "ClientsideOnly"
+					"properties"
+					{
+						$vec3 minBounds [0,0,0]
+						$vec3 maxBounds [0,0,0]
+						$bool showDebugBounds 0
+					}
+				}
+			}
+		},
+		{
+			$string className "prop_dynamic"
+			"flags"
+			{
+				$bool clientsideOnly 1
+			}
+			$stransform pose [[0,0,0][1,0,0,0][4,0.2,4]]
+			"keyValues"
+			{
+				$string model "props/flat_bedroom/floor"
+				$string uuid "54e5a3fc-c390-446d-b7b1-8be84a574bfd"
+				$string skin "0"
+			}
+			$array outputs [element;0][]
+			"components"
+			{
+				"light_map_receiver"
+				{
+					$string flags "ClientsideOnly"
+					"properties"
+					{
+
+					}
+				}
+			}
+		},
+		{
+			$string className "prop_dynamic"
+			"flags"
+			{
+				$bool clientsideOnly 1
+			}
+			$stransform pose [[-106.4059,8.1381,88.2262][1,0,0,0][1,1,1]]
+			"keyValues"
+			{
+				$string model "props/flat_bedroom/bed_frame"
+				$string uuid "1823662f-88fb-45d6-acd7-dc149652e117"
+				$string skin "0"
+			}
+			$array outputs [element;0][]
+			"components"
+			{
+				"light_map_receiver"
+				{
+					$string flags "ClientsideOnly"
+					"properties"
+					{
+
+					}
+				}
+			}
+		},
+		{
+			$string className "prop_dynamic"
+			"flags"
+			{
+				$bool clientsideOnly 1
+			}
+			$stransform pose [[-106.4059,34.9866,88.2262][1,0,0,0][1,1,1]]
+			"keyValues"
+			{
+				$string model "props/flat_bedroom/bed"
+				$string uuid "e330d8e7-e67b-4de8-a131-2f14c66fef49"
+				$string skin "0"
+			}
+			$array outputs [element;0][]
+			"components"
+			{
+				"light_map_receiver"
+				{
+					$string flags "ClientsideOnly"
+					"properties"
+					{
+
+					}
+				}
+			}
+		},
+		{
+			$string className "prop_dynamic"
+			"flags"
+			{
+				$bool clientsideOnly 1
+			}
+			$stransform pose [[-106.4059,53.4855,143.9418][1,0,0,0][1,1,1]]
+			"keyValues"
+			{
+				$string model "props/flat_bedroom/pillow"
+				$string uuid "3875a566-7cc6-4ace-8f6b-1014f95d026c"
+				$string skin "0"
+			}
+			$array outputs [element;0][]
+			"components"
+			{
+				"light_map_receiver"
+				{
+					$string flags "ClientsideOnly"
+					"properties"
+					{
+
+					}
+				}
+			}
+		},
+		{
+			$string className "prop_dynamic"
+			"flags"
+			{
+				$bool clientsideOnly 1
+			}
+			$stransform pose [[-0.2875,8.1783,139.4311][1,0,0,0][1,1,1]]
+			"keyValues"
+			{
+				$string model "props/flat_bedroom/sofa"
+				$string uuid "fe40b835-0c96-4b9d-8924-4ad8eaa5e651"
+				$string skin "0"
+			}
+			$array outputs [element;0][]
+			"components"
+			{
+				"light_map_receiver"
+				{
+					$string flags "ClientsideOnly"
+					"properties"
+					{
+
+					}
+				}
+			}
+		},
+		{
+			$string className "prop_dynamic"
+			"flags"
+			{
+				$bool clientsideOnly 1
+			}
+			$stransform pose [[6.1342,49.5628,145.952][1,0,0,0][1,1,1]]
+			"keyValues"
+			{
+				$string model "props/flat_bedroom/pillow_001"
+				$string uuid "c9ac4682-f6c8-4886-9e27-8c5deeb4ab03"
+				$string skin "0"
+			}
+			$array outputs [element;0][]
+			"components"
+			{
+				"light_map_receiver"
+				{
+					$string flags "ClientsideOnly"
+					"properties"
+					{
+
+					}
+				}
+			}
+		},
+		{
+			$string className "prop_dynamic"
+			"flags"
+			{
+				$bool clientsideOnly 1
+			}
+			$stransform pose [[23.5921,51.4138,150.8332][-0.5501,0.095,0.0141,0.8296][1,1,1]]
+			"keyValues"
+			{
+				$string model "props/flat_bedroom/pillow_002"
+				$string uuid "8dcaf096-6e16-42f0-990a-9c079b96f995"
+				$string skin "0"
+			}
+			$array outputs [element;0][]
+			"components"
+			{
+				"light_map_receiver"
+				{
+					$string flags "ClientsideOnly"
+					"properties"
+					{
+
+					}
+				}
+			}
+		},
+		{
+			$string className "prop_dynamic"
+			"flags"
+			{
+				$bool clientsideOnly 1
+			}
+			$stransform pose [[105.1969,8.1776,146.2995][1,0,0,0][1,1,1]]
+			"keyValues"
+			{
+				$string model "props/flat_bedroom/bookshelf"
+				$string uuid "57000715-d7c5-4fb4-85d5-561748f6e5fa"
+				$string skin "0"
+			}
+			$array outputs [element;0][]
+			"components"
+			{
+				"light_map_receiver"
+				{
+					$string flags "ClientsideOnly"
+					"properties"
+					{
+
+					}
+				}
+			}
+		},
+		{
+			$string className "prop_dynamic"
+			"flags"
+			{
+				$bool clientsideOnly 1
+			}
+			$stransform pose [[-129.1969,7.9306,-61.6421][1,0,0,0][1,1,1]]
+			"keyValues"
+			{
+				$string model "props/flat_bedroom/table"
+				$string uuid "8edaed01-672b-4ce6-8fd4-08ea1b931df5"
+				$string skin "0"
+			}
+			$array outputs [element;0][]
+			"components"
+			{
+				"light_map_receiver"
+				{
+					$string flags "ClientsideOnly"
+					"properties"
+					{
+
+					}
+				}
+			}
+		},
+		{
+			$string className "prop_dynamic"
+			"flags"
+			{
+				$bool clientsideOnly 1
+			}
+			$stransform pose [[135.1291,75.207,146.9861][1,0,0,0][1,1,1]]
+			"keyValues"
+			{
+				$string model "props/flat_bedroom/book_002"
+				$string uuid "848b7941-65f4-42d3-93ca-05156571580a"
+				$string skin "0"
+			}
+			$array outputs [element;0][]
+			"components"
+			{
+				"light_map_receiver"
+				{
+					$string flags "ClientsideOnly"
+					"properties"
+					{
+
+					}
+				}
+			}
+		},
+		{
+			$string className "prop_dynamic"
+			"flags"
+			{
+				$bool clientsideOnly 1
+			}
+			$stransform pose [[103.4855,104.4697,147.2646][1,0,0,0][1,1,1]]
+			"keyValues"
+			{
+				$string model "props/flat_bedroom/book_001"
+				$string uuid "99cdf11a-c4a1-4ab4-8e08-ba49002f6952"
+				$string skin "0"
+			}
+			$array outputs [element;0][]
+			"components"
+			{
+				"light_map_receiver"
+				{
+					$string flags "ClientsideOnly"
+					"properties"
+					{
+
+					}
+				}
+			}
+		},
+		{
+			$string className "prop_dynamic"
+			"flags"
+			{
+				$bool clientsideOnly 1
+			}
+			$stransform pose [[47.8824,22.156,-35.2233][1,0,0,0][1,1,1]]
+			"keyValues"
+			{
+				$string model "props/flat_bedroom/coffe_table"
+				$string uuid "10582296-0172-49a2-99d1-ba188937d678"
+				$string skin "0"
+			}
+			$array outputs [element;0][]
+			"components"
+			{
+				"light_map_receiver"
+				{
+					$string flags "ClientsideOnly"
+					"properties"
+					{
+
+					}
+				}
+			}
+		},
+		{
+			$string className "prop_dynamic"
+			"flags"
+			{
+				$bool clientsideOnly 1
+			}
+			$stransform pose [[47.4401,8.3237,-34.823][0,0.2253,-0,0.9743][1,1,1]]
+			"keyValues"
+			{
+				$string model "props/flat_bedroom/carpet"
+				$string uuid "dee51d29-39ad-42b9-9166-2ae287fd5562"
+				$string skin "0"
+			}
+			$array outputs [element;0][]
+			"components"
+			{
+				"light_map_receiver"
+				{
+					$string flags "ClientsideOnly"
+					"properties"
+					{
+
+					}
+				}
+			}
+		},
+		{
+			$string className "prop_dynamic"
+			"flags"
+			{
+				$bool clientsideOnly 1
+			}
+			$stransform pose [[110.894,11.264,-33.9365][0,0.1734,-0,0.9848][1,1,1]]
+			"keyValues"
+			{
+				$string model "props/flat_bedroom/cushion"
+				$string uuid "716dde53-bfec-418b-8301-b899056ebd3e"
+				$string skin "0"
+			}
+			$array outputs [element;0][]
+			"components"
+			{
+				"light_map_receiver"
+				{
+					$string flags "ClientsideOnly"
+					"properties"
+					{
+
+					}
+				}
+			}
+		},
+		{
+			$string className "prop_dynamic"
+			"flags"
+			{
+				$bool clientsideOnly 1
+			}
+			$stransform pose [[135.7596,50.8485,146.8722][1,0,0,0][1,1,1]]
+			"keyValues"
+			{
+				$string model "props/flat_bedroom/book_003"
+				$string uuid "542eecab-4d2c-4232-9596-3c122e62432b"
+				$string skin "0"
+			}
+			$array outputs [element;0][]
+			"components"
+			{
+				"light_map_receiver"
+				{
+					$string flags "ClientsideOnly"
+					"properties"
+					{
+
+					}
+				}
+			}
+		},
+		{
+			$string className "prop_dynamic"
+			"flags"
+			{
+				$bool clientsideOnly 1
+			}
+			$stransform pose [[56.6312,11.264,-95.6467][0,0.764,-0,0.6453][1,1,1]]
+			"keyValues"
+			{
+				$string model "props/flat_bedroom/cushion_001"
+				$string uuid "46f446d5-a868-4a89-981d-942566cc0d2e"
+				$string skin "0"
+			}
+			$array outputs [element;0][]
+			"components"
+			{
+				"light_map_receiver"
+				{
+					$string flags "ClientsideOnly"
+					"properties"
+					{
+
+					}
+				}
+			}
+		},
+		{
+			$string className "prop_dynamic"
+			"flags"
+			{
+				$bool clientsideOnly 1
+			}
+			$stransform pose [[-142.7328,6.9433,-132.5347][1,0,0,0][1,1,1]]
+			"keyValues"
+			{
+				$string model "props/flat_bedroom/trash_bin"
+				$string uuid "9a37c9d9-868b-4bec-9bd2-d38f76e59e49"
+				$string skin "0"
+			}
+			$array outputs [element;0][]
+			"components"
+			{
+				"light_map_receiver"
+				{
+					$string flags "ClientsideOnly"
+					"properties"
+					{
+
+					}
+				}
+			}
+		},
+		{
+			$string className "prop_dynamic"
+			"flags"
+			{
+				$bool clientsideOnly 1
+			}
+			$stransform pose [[99.8374,75.0766,146.8722][1,0,0,0][1,1,1]]
+			"keyValues"
+			{
+				$string model "props/flat_bedroom/book"
+				$string uuid "090a56a1-ce61-40a9-afa5-0fc6a43abb5d"
+				$string skin "0"
+			}
+			$array outputs [element;0][]
+			"components"
+			{
+				"light_map_receiver"
+				{
+					$string flags "ClientsideOnly"
+					"properties"
+					{
+
+					}
+				}
+			}
+		},
+		{
+			$string className "prop_dynamic"
+			"flags"
+			{
+				$bool clientsideOnly 1
+			}
+			$stransform pose [[-69.5129,42.2934,-50.1588][1,0,0,0][1,1,1]]
+			"keyValues"
+			{
+				$string model "props/flat_bedroom/chair"
+				$string uuid "6f39fde5-96f3-4014-a377-655e7e636173"
+				$string skin "0"
+			}
+			$array outputs [element;0][]
+			"components"
+			{
+				"light_map_receiver"
+				{
+					$string flags "ClientsideOnly"
+					"properties"
+					{
+
+					}
+				}
+			}
+		},
+		{
+			$string className "prop_dynamic"
+			"flags"
+			{
+				$bool clientsideOnly 1
+			}
+			$stransform pose [[67.4648,26.6932,-32.121][1,0,0,0][1,1,1]]
+			"keyValues"
+			{
+				$string model "props/flat_bedroom/mug"
+				$string uuid "f58552a6-2aba-49ce-89a6-f839e23d74b2"
+				$string skin "0"
+			}
+			$array outputs [element;0][]
+			"components"
+			{
+				"light_map_receiver"
+				{
+					$string flags "ClientsideOnly"
+					"properties"
+					{
+
+					}
+				}
+			}
+		},
+		{
+			$string className "prop_dynamic"
+			"flags"
+			{
+				$bool clientsideOnly 1
+			}
+			$stransform pose [[52.2377,27.344,-58.1678][1,0,0,0][1,1,1]]
+			"keyValues"
+			{
+				$string model "props/flat_bedroom/mug_001"
+				$string uuid "2bb5eeae-5769-4815-bf1f-4742dfdcb533"
+				$string skin "0"
+			}
+			$array outputs [element;0][]
+			"components"
+			{
+				"light_map_receiver"
+				{
+					$string flags "ClientsideOnly"
+					"properties"
+					{
+
+					}
+				}
+			}
+		},
+		{
+			$string className "prop_dynamic"
+			"flags"
+			{
+				$bool clientsideOnly 1
+			}
+			$stransform pose [[102.73,59.6279,145.8552][0,0.1571,-0,0.9876][1,1,1]]
+			"keyValues"
+			{
+				$string model "props/flat_bedroom/photo_frame"
+				$string uuid "90656797-3609-4507-bfd4-ee70e63da98d"
+				$string skin "0"
+			}
+			$array outputs [element;0][]
+			"components"
+			{
+				"light_map_receiver"
+				{
+					$string flags "ClientsideOnly"
+					"properties"
+					{
+
+					}
+				}
+			}
+		},
+		{
+			$string className "prop_dynamic"
+			"flags"
+			{
+				$bool clientsideOnly 1
+			}
+			$stransform pose [[76.4431,59.6279,145.8552][-0,-0.1761,-0,0.9844][1,1,1]]
+			"keyValues"
+			{
+				$string model "props/flat_bedroom/photo_frame_001"
+				$string uuid "8ba8f24c-c461-4d29-9bd6-43c851767e95"
+				$string skin "0"
+			}
+			$array outputs [element;0][]
+			"components"
+			{
+				"light_map_receiver"
+				{
+					$string flags "ClientsideOnly"
+					"properties"
+					{
+
+					}
+				}
+			}
+		},
+		{
+			$string className "prop_dynamic"
+			"flags"
+			{
+				$bool clientsideOnly 1
+			}
+			$stransform pose [[-146.1456,57.7586,-42.25][1,0,0,0][1,1,1]]
+			"keyValues"
+			{
+				$string model "props/flat_bedroom/pc"
+				$string uuid "d2870b9a-4fc5-409c-8b40-6f0f18320c91"
+				$string skin "0"
+			}
+			$array outputs [element;0][]
+			"components"
+			{
+				"light_map_receiver"
+				{
+					$string flags "ClientsideOnly"
+					"properties"
+					{
+
+					}
+				}
+			}
+		},
+		{
+			$string className "prop_dynamic"
+			"flags"
+			{
+				$bool clientsideOnly 1
+			}
+			$stransform pose [[-118.104,57.6306,-44.216][1,0,0,0][1,1,1]]
+			"keyValues"
+			{
+				$string model "props/flat_bedroom/keyboard"
+				$string uuid "34680232-3297-4e37-84ed-721ff019fe2b"
+				$string skin "0"
+			}
+			$array outputs [element;0][]
+			"components"
+			{
+				"light_map_receiver"
+				{
+					$string flags "ClientsideOnly"
+					"properties"
+					{
+
+					}
+				}
+			}
+		},
+		{
+			$string className "prop_dynamic"
+			"flags"
+			{
+				$bool clientsideOnly 1
+			}
+			$stransform pose [[-146.372,57.7977,-97.6879][1,0,0,0][1,1,1]]
+			"keyValues"
+			{
+				$string model "props/flat_bedroom/plant"
+				$string uuid "ec7e767f-3834-4da8-8dd3-b16d1ac27a2d"
+				$string skin "0"
+			}
+			$array outputs [element;0][]
+			"components"
+			{
+				"light_map_receiver"
+				{
+					$string flags "ClientsideOnly"
+					"properties"
+					{
+
+					}
+				}
+			}
+		},
+		{
+			$string className "prop_dynamic"
+			"flags"
+			{
+				$bool clientsideOnly 1
+			}
+			$stransform pose [[0,0,0][1,0,0,0][1,1,1]]
+			"keyValues"
+			{
+				$string model "props/flat_bedroom/wall"
+				$string uuid "e47e56ef-6f8e-4877-bc1c-781a315bf2dc"
+				$string skin "0"
+			}
+			$array outputs [element;0][]
+			"components"
+			{
+				"light_map_receiver"
+				{
+					$string flags "ClientsideOnly"
+					"properties"
+					{
+
+					}
+				}
+			}
+		},
+		{
+			$string className "prop_dynamic"
+			"flags"
+			{
+				$bool clientsideOnly 1
+			}
+			$stransform pose [[1.5066,117.2865,171.0316][1,0,0,0][1,1,1]]
+			"keyValues"
+			{
+				$string model "props/flat_bedroom/window"
+				$string uuid "7fbd367d-7300-4c46-a64f-c2906f8eb17d"
+				$string skin "0"
+			}
+			$array outputs [element;0][]
+			"components"
+			{
+				"light_map_receiver"
+				{
+					$string flags "ClientsideOnly"
+					"properties"
+					{
+
+					}
+				}
+			}
+		},
+		{
+			$string className "prop_dynamic"
+			"flags"
+			{
+				$bool clientsideOnly 1
+			}
+			$stransform pose [[-160.1641,122.0554,-52.977][1,0,0,0][1,1,1]]
+			"keyValues"
+			{
+				$string model "props/flat_bedroom/board"
+				$string uuid "e31676a8-aae8-4356-b144-d61a857a1df3"
+				$string skin "0"
+			}
+			$array outputs [element;0][]
+			"components"
+			{
+				"light_map_receiver"
+				{
+					$string flags "ClientsideOnly"
+					"properties"
+					{
+
+					}
+				}
+			}
+		},
+		{
+			$string className "prop_dynamic"
+			"flags"
+			{
+				$bool clientsideOnly 1
+			}
+			$stransform pose [[-150.7929,130.0088,90.7683][1,0,0,0][1,1,1]]
+			"keyValues"
+			{
+				$string model "props/flat_bedroom/wallshelf"
+				$string uuid "7e463de1-59a7-4d34-933b-40b3cf3125b8"
+				$string skin "0"
+			}
+			$array outputs [element;0][]
+			"components"
+			{
+				"light_map_receiver"
+				{
+					$string flags "ClientsideOnly"
+					"properties"
+					{
+
+					}
+				}
+			}
+		},
+		{
+			$string className "prop_dynamic"
+			"flags"
+			{
+				$bool clientsideOnly 1
+			}
+			$stransform pose [[-148.6856,127.7138,114.6735][1,0,0,0][1,1,1]]
+			"keyValues"
+			{
+				$string model "props/flat_bedroom/succulent"
+				$string uuid "ab4fdcb0-cc64-4b51-bec2-8fe8cdbb8990"
+				$string skin "0"
+			}
+			$array outputs [element;0][]
+			"components"
+			{
+				"light_map_receiver"
+				{
+					$string flags "ClientsideOnly"
+					"properties"
+					{
+
+					}
+				}
+			}
+		},
+		{
+			$string className "prop_dynamic"
+			"flags"
+			{
+				$bool clientsideOnly 1
+			}
+			$stransform pose [[-149.608,111.5977,66.2825][1,0,0,0][1,1,1]]
+			"keyValues"
+			{
+				$string model "props/flat_bedroom/succulent_001"
+				$string uuid "6caf6282-c4db-4e30-9c99-ce1c04195376"
+				$string skin "0"
+			}
+			$array outputs [element;0][]
+			"components"
+			{
+				"light_map_receiver"
+				{
+					$string flags "ClientsideOnly"
+					"properties"
+					{
+
+					}
+				}
+			}
+		},
+		{
+			$string className "env_light_environment"
+			"flags"
+			{
+				$bool clientsideOnly 1
+			}
+			$stransform pose [[80.5441,129.062,-48.4382][0.8811,0.365,-0.2779,0.1151][1,1,1]]
+			"keyValues"
+			{
+				$string light_intensity_type "2"
+				$string uuid "da1933a8-e8e2-4f80-b323-96e4896ab0bd"
+				$string color "1 1 1"
+				$string light_intensity "10.447761535645"
+				$string spawnflags "1024"
+				$string light_flags "1"
+			}
+			$array outputs [element;0][]
+		}
+	]
+}
+$uint32 assetVersion 1

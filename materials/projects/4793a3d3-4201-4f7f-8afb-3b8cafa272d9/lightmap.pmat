@@ -1,0 +1,9 @@
+"lightmap"
+{
+	"textures"
+	{
+		$string diffuse_direct_map "projects/4793a3d3-4201-4f7f-8afb-3b8cafa272d9/lightmap_diffuse_direct"
+		$string dominant_direction_map "projects/4793a3d3-4201-4f7f-8afb-3b8cafa272d9/lightmap_normal"
+		$string diffuse_indirect_map "projects/4793a3d3-4201-4f7f-8afb-3b8cafa272d9/lightmap_diffuse_indirect"
+	}
+}
